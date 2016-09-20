@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Jukebox Workshop</title>
   <link rel="stylesheet" type="text/css" href="css/default.css" />
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </head>
 <body>
   <h1>Jukebox Workshop</h1>
@@ -16,8 +16,12 @@
     <li>build Jukebox object that holds an array of songs</li>
     <li>move/convert the function above to be a method of our object</li>
   </ol>
+  Currently Playing: <span id="now-playing">Amy Stroup - Just You</span>
   <audio id="jukebox" controls autoplay>
     <source src="mp3/amy-stroup_just-you.mp3" />
   </audio>
+  <button class="song current" data-file="amy-stroup_just-you.mp3">Amy Stroup - Just You</button>
+  <button class="song" data-file="foo-fighters_iron-rooster.mp3">Foo Fighters - Iron Rooster</button>
+  <button class="song" data-file="bluegrass-mastery_any-old-road.mp3">Bluegrass Mastery - Any Old Road</button>
 </body>
 </html>
